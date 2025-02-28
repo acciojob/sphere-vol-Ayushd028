@@ -3,7 +3,7 @@ function volume_sphere() {
 	let radius = parseFloat(radiusInput);
 
 	if(isNaN(radius) || radius<0){
-		document.querySelector("#volume").value = "Nan";
+		document.querySelector("#volume").value = "NaN";
 		return false;
 	}
 	
